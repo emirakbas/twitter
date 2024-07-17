@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "TwitterChirp";
+    src: url('https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2');
+}
+
 html {
     background-color: black;
 }
@@ -39,8 +44,8 @@ body {
     position: absolute;
     display: block;
     margin-top: -10vh;
-    margin-left: 60%;
-    height: 70%;
+    margin-left: 50%;
+    height: 60%;
     width: 35%;
 }
 
@@ -52,13 +57,40 @@ body {
 
 .slogan {
     color: white;
-    font-size: 80px;
+    font-size: 65px;
     width: 100%;
     margin-top: -3vh;
-    font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    
+    font-family: "TwitterChirp";
 }
 
 .katıl {
+    margin-top: 5vh;
+    color: white;
+    font-family: "TwitterChirp";
+    font-size: 32px;
+}
+
+form {
+    display: block;
+    width: 50vh;
+    height: 30vh;
+}
+
+button {
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    padding: 10px 120px;
+}
+
+.veya {
+    color: white;
+}
+
+.tos { 
+    color: white;
+}
+
+.ac_question {
     color: white;
 }

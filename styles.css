@@ -1,0 +1,64 @@
+html {
+    background-color: black;
+}
+
+body {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container_main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 18vh;
+    height: 60%;
+    width: 140vh;
+
+}
+
+.container_left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60%;
+    height: 100%;
+    width: 50%;
+}
+
+
+
+.container_right {
+    position: absolute;
+    display: block;
+    margin-top: -10vh;
+    margin-left: 60%;
+    height: 70%;
+    width: 35%;
+}
+
+.logo {
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+}
+
+.slogan {
+    color: white;
+    font-size: 80px;
+    width: 100%;
+    margin-top: -3vh;
+    font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+
+.katıl {
+    color: white;
+}

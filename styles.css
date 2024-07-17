@@ -72,15 +72,16 @@ body {
 
 form {
     display: block;
-    width: 50vh;
-    height: 30vh;
+    width: 65%;
+    height: 40vh;
 }
 
 button {
     background-color: white;
     border: white;
-    border-radius: 10px;
-    padding: 10px 120px;
+    border-radius: 30px;
+    width: 90%;
+    height: 40px;
 }
 
 .veya {
@@ -93,4 +94,14 @@ button {
 
 .ac_question {
     color: white;
+    font-family: "TwitterChirp";
+    font-size: 14px;
+}
+
+.google {
+    margin-bottom: 10px;
+}
+
+.apple {
+
 }

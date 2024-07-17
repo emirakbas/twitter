@@ -34,8 +34,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 60%;
-    height: 100%;
-    width: 50%;
+    height: 50vh;
+    width: 50vh;
 }
 
 
@@ -43,22 +43,22 @@ body {
 .container_right {
     position: absolute;
     display: block;
-    margin-top: -10vh;
-    margin-left: 50%;
+    margin-top: -15%;
+    margin-left: 60%;
     height: 60%;
-    width: 35%;
+    width: 40%;
 }
 
 .logo {
-    width: 30vh;
-    height: 30vh;
+    width: 70%;
+    height: 70%;
     margin: auto;
 }
 
 .slogan {
     color: white;
     font-size: 65px;
-    width: 100%;
+    width: 55vh;
     margin-top: -3vh;
     font-family: "TwitterChirp";
 }
@@ -68,34 +68,59 @@ body {
     color: white;
     font-family: "TwitterChirp";
     font-size: 32px;
+    width: 30vh;
 }
 
 form {
     display: block;
-    width: 65%;
-    height: 40vh;
+    width: 60vh;
+    height: 400px;
 }
 
 button {
     background-color: white;
     border: white;
     border-radius: 30px;
-    width: 90%;
+    width: 25vh;
     height: 40px;
 }
 
+.long_line {
+    display: flex;
+    align-items: center;
+}
+
+.line1 {
+    opacity: 30%;
+    background-color: white;
+    width: 10vh;
+    height: 1px;
+}
+
+.line2 {
+    opacity: 30%;
+    background-color: white;
+    width: 10vh;
+    height: 1px;
+}
+
 .veya {
+    padding: 0 10px;
+    text-align: center;
     color: white;
+    background-color: black;
 }
 
 .tos { 
     color: white;
+    width: 30vh;
 }
 
 .ac_question {
     color: white;
     font-family: "TwitterChirp";
     font-size: 14px;
+    width: 30vh;
 }
 
 .google {
@@ -103,5 +128,5 @@ button {
 }
 
 .apple {
-
+    margin-bottom: 10px;
 }

@@ -172,17 +172,23 @@ footer {
     display: block;
     text-align: center;
     height: 10vh;
-    width: 90%;
-    margin-top: 93vh;
+    width: 100%;
+    margin-top: 97vh;
 }
 
 footer a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
 }
+
+.mobile_br {
+    display: none;
+
+}
+
 @media screen and (max-width: 900px ) {
     .container_main {
         width: 50vh;
@@ -218,6 +224,10 @@ footer a {
         display: block;
         width: 90%;
         margin-top: 80vh;
+    }
+
+    .mobile_br {
+        display: block;
     }
 
     footer a {
